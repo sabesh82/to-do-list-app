@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(78,9,121,1) 34%, rgba(64,46,145,1) 46%, rgba(0,212,255,1) 100%);
+}
+
+.todo_container{
+    width:470px;
+    max-width: 90%;
+    text-align: center;
+    border: 2px solid white;
+    padding: 40px;
+    background-color: rgb(43, 85, 100);
+    margin-left:35%;
+    margin-top: 10%;
+}
+
+.todo_container h1{
+    color: aliceblue;
+}
+
+.todo_form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo_input{
+    flex:1;
+    padding:10px;
+    font-size: 1rem;
+    background-color: rgb(127, 242, 255);
+    border-radius: 15px;
+    margin-right: 5px;
+    border:none;
+}
+
+.todo_form button{
+    height: 40px;
+    border-radius: 40%;
+    background-color: rgb(27, 163, 201);
+    border: none;
+    cursor: pointer;
+}
+
+.todo_form button:hover{
+    background-color: hsl(193, 76%, 55%);
+}
+
+.todo_form button:active{
+    background-color: hsl(193, 76%, 65%);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    background:rgb(203, 162, 241) ;
+    padding: 8px;
+    border-radius: 4px;
+    border:1px solid black;
+}
+
+li .delete-button{
+    float: right;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+li .delete-button:hover {
+    background: #c82333;
+  }
